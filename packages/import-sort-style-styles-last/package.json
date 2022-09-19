@@ -1,0 +1,32 @@
+{
+  "name": "import-sort-style-styles-last",
+  "version": "1.0.0",
+  "description": "Styles last import-sort style",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "prepublishOnly": "tsc -b .",
+    "build": "tsc -b .",
+    "build:watch": "tsc -b . -w",
+    "lint": "eslint --ext ts src"
+  },
+  "author": "Erik Engstrand (https://github.com/erzki)",
+  "repository": "renke/import-sort",
+  "license": "ISC",
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@types/node": "^10.3.5",
+    "@typescript-eslint/eslint-plugin": "^1.2.0",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-react": "^7.12.4",
+    "import-sort-style": "^6.0.0",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.2.4"
+  }
+}

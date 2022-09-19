@@ -37,6 +37,7 @@ export interface IStyleAPI {
   isAbsoluteModule: IMatcherFunction;
   isScopedModule: IMatcherFunction;
   isInstalledModule(baseFile: string): IMatcherFunction;
+  isStylesheet: IMatcherFunction;
 
   startsWithUpperCase: IPredicateFunction;
   startsWithLowerCase: IPredicateFunction;

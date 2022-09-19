@@ -14,6 +14,7 @@
     "no-use-before-define": ["error", "nofunc"],
     "@typescript-eslint/no-use-before-define": ["error", "nofunc"],
     "no-continue": "off",
-    "prefer-template": "off"
+    "prefer-template": "off",
+    "linebreak-style": "off"
   }
 }
